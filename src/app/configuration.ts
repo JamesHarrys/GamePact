@@ -63,30 +63,30 @@ export const Configuration = {
         description: '',
         plan: [
             {title: 'Personal', subtitle: 'The standard version', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '5.99', currency: '€',
-                    downloads: '5 Downloads', 
-                    extensions: '2 Extensions', 
-                    tutorials: 'Tutorials', 
-                    support: 'Forum Support', 
+                    downloads: '5 Downloads',
+                    extensions: '2 Extensions',
+                    tutorials: 'Tutorials',
+                    support: 'Forum Support',
                     updates: '1 year free updates'
                 ,
                 buttontext: 'BUY TODAY', buttonlink: '#', featured: false
             },
-            {title: 'Student', subtitle: 'Most popular choice', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '8.99', currency: '€', 
-                    downloads: '25 Downloads', 
-                    extensions: '5 Extensions', 
-                    tutorials: 'Tutorials + Files', 
-                    support: 'Forum Support', 
+            {title: 'Student', subtitle: 'Most popular choice', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '8.99', currency: '€',
+                    downloads: '25 Downloads',
+                    extensions: '5 Extensions',
+                    tutorials: 'Tutorials + Files',
+                    support: 'Forum Support',
                     updates: '2 year free updates'
-                ,                
+                ,
                 buttontext: 'BUY TODAY', buttonlink: '#', featured: true
             },
             {title: 'Business', subtitle: 'For the whole team', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', price: '15.99', currency: '€',
-                    downloads: 'Unlimited Downloads', 
-                    extensions: 'Unlimited Extensions', 
-                    tutorials: 'HD Video Tutorials', 
-                    support: 'Chat Support', 
+                    downloads: 'Unlimited Downloads',
+                    extensions: 'Unlimited Extensions',
+                    tutorials: 'HD Video Tutorials',
+                    support: 'Chat Support',
                     updates: 'Lifetime free updates'
-                ,                 
+                ,
                 buttontext: 'BUY TODAY', buttonlink: '#', featured: false
             },
         ]
@@ -103,5 +103,5 @@ export const Configuration = {
         {link: 'https://www.instagram.com', title: 'Instagram', target: '_blank', username: 'jamesharrys', icon: 'fa-instagram'},
         {link: 'https://www.behance.com', title: 'Behance', target: '_blank', username: 'jamesharrys', icon: 'fa-behance'}
     ]
-    
-}
+
+};
